@@ -7,8 +7,8 @@
  Type Selectoror: By tag name (e.g., div, p).
  Class Selector (.): By class (e.g., .classname).
  ID Selector (#): By ID (e.g., #idname).
- Attribute Selectoror*: By attributes (e.g., [type="text"]).
- Descendant Selectoror*: Descendants of an element (e.g., div p).
+ Attribute Selectoror: By attributes (e.g., [type="text"]).
+ Descendant Selectoror: Descendants of an element (e.g., div p).
  Child Selector (>): Direct children (e.g., ul > li).
  Adjacent Sibling Selector (+): Immediate following sibling (e.g., h1 + p).
  General Sibling Selector (~): All following siblings (e.g., h1 ~ p).
