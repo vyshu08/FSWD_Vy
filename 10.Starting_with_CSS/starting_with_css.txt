@@ -1,0 +1,32 @@
+1. Why CSS selectors are used in HTML?
+   CSS selectors are used to select and style specific HTML elements, allowing developers to apply visual styles like colors and layouts, enhancing the user experience.
+
+2. What are the different types of selectors in CSS?
+   Types of CSS selectors include:
+   - Universal Selector (*): All elements.
+ Type Selectoror: By tag name (e.g., div, p).
+ Class Selector (.): By class (e.g., .classname).
+ ID Selector (#): By ID (e.g., #idname).
+ Attribute Selectoror*: By attributes (e.g., [type="text"]).
+ Descendant Selectoror*: Descendants of an element (e.g., div p).
+ Child Selector (>): Direct children (e.g., ul > li).
+ Adjacent Sibling Selector (+): Immediate following sibling (e.g., h1 + p).
+ General Sibling Selector (~): All following siblings (e.g., h1 ~ p).
+
+3. How do you include external fonts and apply them?
+   To include external fonts:
+ Using Google Fontsts: Copy the <link> tag from Google Fonts into your HTML <head>, then apply the font in CSS:
+    
+     body {
+         font-family: 'Roboto', sans-serif;
+     }
+     
+ Using @font-facece: Upload font files, use @font-face in CSS, and apply it:
+    
+     @font-face {
+         font-family: 'MyCustomFont';
+         src: url('path/to/font.woff2') format('woff2');
+     }
+     h1 {
+         font-family: 'MyCustomFont', sans-serif;
+     }
