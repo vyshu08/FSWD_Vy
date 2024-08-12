@@ -1,0 +1,26 @@
+Grid Assignment
+=========================================
+1.What is the grid? 
+ Ans. An intersection of vertical and horizontal lines is known as a grid.
+Major sections of a page are separated using CSS Grid layout.
+A grid-based layout system with rows and columns is provided by the grid attribute. It eliminates the need for positioning and floating, making web page creation simple.
+The grid layout enables us to construct grid structures represented in CSS rather than HTML.
+The user can align the pieces into rows and columns like a table. But using the CSS grid to construct a layout is simpler than using tables.
+
+2. What is the difference between Flex and grid? 
+Ans. Grid:CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allows us to align elements into columns and rows.
+To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row.
+Flexbox: The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes.
+To get started you have to define a container element as a grid with display: flex;
+
+3.How can you define rows and columns or your grid?
+Ans.We define rows and columns on our grid with the grid-template-rows and grid-template-columns properties. These define grid tracks. A grid track is the space between any two adjacent lines on the grid
+
+4. List any two properties  of the grid item and grid container.
+Ans.Grid items→ auto: It has no effect on the position of the grid item, indicating auto-placement, an automatic span, or a default span of 1.
+Span n: The item will span n number of columns
+Grid Container →
+grid-template :It is a shorthand property used to achieve the functionalities of three properties, i.e., grid-template-columns, grid-template-rows, and grid-areas.
+row-gap & column-gap: These properties determine the gap between the grid rows and grid columns respectively.
+
+
