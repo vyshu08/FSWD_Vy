@@ -1,15 +1,32 @@
-More with CSS
+1. Why CSS selectors are used in HTML?
+   CSS selectors are used to select and style specific HTML elements, allowing developers to apply visual styles like colors and layouts, enhancing the user experience.
 
-Q- 1 what are padding and margin when do you use them?
- Ans:- In HTML margins work the same way in giving space away from the edge of  the page. Borders simply wrap the element. A border can wrap immediately around  an element, or it may look further away from an element if more padding has been  applied to the element. Padding provides space around the element. 
-Q- 2 What are display properties and explain display inline,  block,inline-block? 
-Ans:- Display Property. Several lessons ago we reviewed the box model and the  four properties that compose it: content, padding, border, and margin. The box  model and these four properties determine how and where elements are placed on  the screen. But remember, each DOM element has its own box model. 
-1. inline One common use for the display: inline-block is to display list items  horizontally instead of vertically. 
-2. Block The display property sets or returns the element's display type. Elements in HTML are mostly "inline" or "block" elements: An inline element  has floating content on its left and right side. A block element fills the entire line, and nothing can be displayed on its left or right side. 
-3. Inline-block What is display block and display inline? 
-display: block - a line break before and after the element. display: inline - no  line break before or after the element 
-Q- 3 Explain min-height, min-width, max-width, and max-height  in CSS. 
-Ans:- min- height Min height 100vh means the element should occupy the web  browser viewport height. 
-Min-width the min-width CSS property sets the minimum width of an element. It  prevents the used value of the width property from becoming smaller than the value  specified for min-width 
-Max-width The max-width property in CSS is used to define the maximum width of  an element.
-Max-height The max-height CSS property sets the maximum height of an element.  It prevents the used value of the height property from becoming larger than the value  specified for max-height
+2. What are the different types of selectors in CSS?
+   Types of CSS selectors include:
+   - Universal Selector (*): All elements.
+ Type Selectoror: By tag name (e.g., div, p).
+ Class Selector (.): By class (e.g., .classname).
+ ID Selector (#): By ID (e.g., #idname).
+ Attribute Selectoror*: By attributes (e.g., [type="text"]).
+ Descendant Selectoror*: Descendants of an element (e.g., div p).
+ Child Selector (>): Direct children (e.g., ul > li).
+ Adjacent Sibling Selector (+): Immediate following sibling (e.g., h1 + p).
+ General Sibling Selector (~): All following siblings (e.g., h1 ~ p).
+
+3. How do you include external fonts and apply them?
+   To include external fonts:
+ Using Google Fontsts: Copy the <link> tag from Google Fonts into your HTML <head>, then apply the font in CSS:
+    
+     body {
+         font-family: 'Roboto', sans-serif;
+     }
+     
+ Using @font-facece: Upload font files, use @font-face in CSS, and apply it:
+    
+     @font-face {
+         font-family: 'MyCustomFont';
+         src: url('path/to/font.woff2') format('woff2');
+     }
+     h1 {
+         font-family: 'MyCustomFont', sans-serif;
+     }
