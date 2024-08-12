@@ -1,0 +1,11 @@
+ Assignment 20jan
+
+1. What is Emmet ? 
+Ans. Emmet is a free add-on for your text editor. It allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, developers type less, they save both on keystrokes and time. Also relying on Emmet's auto completion means fewer typos and missing tags, leading to more robust and valid files. It's also open source, so if you are so inclined you can further customize it yourself. Emmet is available for a variety of editors.
+
+2. What are the advantages of using Emmet ? 
+Ans. Some of the advantages are-
+1.Saves a lot of time.
+2.Increase productivity.
+3.Efficient Programming.
+4.Allows to type shortcuts that are then expanded into full pieces of code after an auto suggestive letter pops up.
