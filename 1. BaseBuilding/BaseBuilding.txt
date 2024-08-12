@@ -1,0 +1,15 @@
+1.The internet is a global network of billions computer and other electronic devices.With the internet,It is possible to access almost any information ,communicate with anyone else in the world,and do much more .You can do all of this by connecting a computer to the internet,which is also called going online
+                                         OR
+ INTERNET  stands for Interconnected Network is a network system that connects millions of web servers. Today the world will be stopped without  an active internet connection
+Example :we able to  do full stack web development classes due to internet
+
+2 .A web browser is application software for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers are used on a range of devices, including desktops, laptops, tablets, and smartphones
+
+3. A browser engine (also known as a layout engine or rendering engine) is a core software component of every major web browser. The primary job of a browser engine is to transform HTML documents and other resources of a web page into an interactive visual representation on a user's device.
+
+4.Static web pages are made of “fixed code,” and unless the site developer makes changes, nothing will change on the page. Think of it like a brochure for a business. Static sites give a lot of the same type of information that you could get from a brochure, but it can't just change itself.
+Example: resume websites, portfolio websites, brochure websites
+
+5. A dynamic website or dynamic web page contains information that changes, depending on the viewer, the time of the day, the time zone, the viewer's native language, and other factors. For example, the Computer Hope home page is a dynamic web page that automatically changes daily to give visitors new content.
+Example: Twitter , Facebook , Instagram. 
+
