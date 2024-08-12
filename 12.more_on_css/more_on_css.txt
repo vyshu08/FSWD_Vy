@@ -1,0 +1,15 @@
+CSS Assignment
+1.Why is it called a pseudo-class ?
+Ans. It's pseudo because you didn't make it; the browser 'created' it and allows you to set it to change the look of the link when it's in that state.but why is it a class? If you can only hover or one area of the screen at a time, then only one p can take the CSS rule at any time. Doesn't class imply several elements belonging to some common group, and a class style rule means all of them will inherit that rule?
+The pseudo-class can be assumed as a state. And every element that has the state hover can be classified by :hover. So whenever a a element gets the state hover, it can be selected with :hover
+
+2. What are gradients in CSS?
+Ans . CSS gradients let you display smooth transitions between two or more specified colors. CSS defines three types of gradients: Linear Gradients (goes down/up/left/right/diagonally) Radial Gradients (defined by their center) Conic Gradients (rotated around a center point)
+
+ 3.What are different types of transitions in CSS?
+Ans . CSS Transitions
+1.transition.
+2.transition-delay.
+3.transition-duration.
+4.transition-property.
+5.transition-timing-function.
