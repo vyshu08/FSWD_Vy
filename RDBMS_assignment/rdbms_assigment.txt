@@ -1,0 +1,63 @@
+          RDBMS ASSIGNMENT
+Q1. What is RDBMS? Why do industries use RDBMS?
+Ans. An RDBMS is a Relational Database Management System, a program that stores and manages data in tables, rows and columns, and allows users to create relationships between different pieces of data. Industries use RDBMS because they are simple, flexible, scalable, secure, and efficient for handling large sets of data with multiple items.
+RDBMS is used because:
+It enables the creation of virtual tables in the form of rows and columns for storing sensitive data.
+SQL is a standard language used in RDBMS which uses simple syntax.
+RDBMS allows multiple users to access the data at the same time.
+The systematic view of raw data helps companies better understand and execute the information while enhancing the decision-making process.
+The use of tables to store data also improves the security of information stored in the databases.
+Relational databases are used to track inventories, process e-commerce transactions, manage huge amounts of mission-critical customer information, 
+and much more.
+Q2. Explain the relationship data model in depth.
+Ans. The relational data model is a data model that describes the world as “a collection of inter-related relations (or tables)”. It involves the use of data tables that collect groups of elements into relations and works based on the idea that each table setup will include a primary key or identifier. The relational model is the theoretical basis of relational databases, which is a technique or way of structuring data using relations, which are grid-like mathematical structures consisting of columns and rows. The relational model is widely used around the world for data storage and processing.
+Q3. What is the importance of Relationships in a Database management system? Explain the types of relationships.
+Ans. Relationships in a database help create meaningful information by linking data from different tables. The importance of relationships in a database management system is
+Reduced data redundancy. Relationships help reference information stored in existing tables, reducing repetition.
+Better organized databases. Relationships help implement database normalization techniques.
+Minimized redundancy of data.
+Establishing a smooth workflow.
+Adding more integrity to the table structure and making the Database Management System more efficient.
+There are three different types of relationships in a database
+One-to-one (1:1): Each record in one table is linked to only one record in another table.
+One-to-many (1:M): Each record in one table is linked to many records in another table.
+Many-to-many (M:N): Many records in one table are linked to many records in another table.
+Q4. Explain the different types of Keys in RDBMS considering a real-life scenario.
+Ans. There are different types of keys in RDBMS that help to identify, relate and access data in tables. Some of the common types of keys are:
+Primary key: A unique identifier for each row in a table. For example, a student ID can be a primary key for a student table.
+Foreign key: A key that references a primary key of another table. For example, a course ID can be a foreign key in a student table that references a primary key in a course table.
+Candidate key: A key that can uniquely identify a row in a table. There can be more than one candidate key for a table, but only one can be chosen as the primary key. For example, a student ID or an email can be candidate keys for a student table.
+Super key: A key that contains one or more attributes that can uniquely identify a row in a table. A super key can have extra attributes that are not necessary for uniqueness. For example, a student ID and name can be a super key for a student table, but a name is not needed for uniqueness.
+Alternate key: A candidate key that is not chosen as the primary key. For example, an email can be an alternate key for a student table if the student ID is the primary key.
+Composite key: A key that consists of two or more attributes that can uniquely identify a row in a table. For example, a combination of course ID and semester can be a composite key for an enrollment table.
+Surrogate key: A key that is artificially generated and has no meaning in the real world. For example, an auto-incremented number can be a surrogate key for any table.
+
+Q5. Write a short note on Single Responsibility Principle.
+Ans. The Single Responsibility Principle (SRP) is a computer programming principle that states that a module should be responsible to one, and only one, actor. An actor is a group of stakeholders or users that requires a change in the module. The SRP helps to avoid coupling two things that change for different reasons at different times. It is the first principle of SOLID principles, which are guidelines for designing classes. Some examples of applying the SRP are JPA EntityManager, JPA AttributeConverter, and Java Logger.
+Q6. Explain the different types of errors that could arise in a denormalized database.
+Ans. A denormalized database is a database that stores data in a less structured way than a normalized database, which follows certain rules to avoid data redundancy and inconsistency. A denormalized database may have some advantages in terms of performance and simplicity, but it also has some disadvantages in terms of data quality and integrity. Some of the errors that could arise in a denormalized database are:
+Insertion anomaly: This occurs when you cannot insert a new record without duplicating some existing data. For example, if you store the player name and score in the same table, you have to repeat the player name every time you insert a new score.
+Update anomaly: This occurs when you have to update the same data in multiple places, which can lead to inconsistency and errors. For example, if you change the player name in one record, you have to change it in all other records that contain the same name.
+Deletion anomaly: This occurs when you delete a record that contains some information that is not stored anywhere else, which can lead to loss of data. For example, if you delete a player's record, you may also lose the information about their scores.
+
+Q7. What is normalization and what is the need for normalization?
+Ans. Normalization is a process that makes something more normal or regular. It can have different meanings in different contexts, such as statistics, sociology, or database design.
+In database design, normalization is the process of reorganizing data in a database so that it meets two basic requirements: there is no redundancy of data, and data dependencies are logical.
+The need for normalization in database design is to eliminate redundant data, reduce the chances of data error, save disk space, increase performance, and improve data integrity and consistency.
+Q8. List out the different levels of Normalization and explain them in detail.
+Ans. Normalization is a process of organizing data in a database to reduce redundancy and improve integrity. There are several levels of normalization, each with its own set of rules. The most common levels are:
+First Normal Form (1NF): Each table cell should contain only a single value, and each column should have a unique name.
+Second Normal Form (2NF): Each table should have a primary key, and no column that is not part of the primary key should depend on only a part of the primary key.
+Third Normal Form (3NF): No column that is not part of the primary key should depend on another column that is not part of the primary key.
+Boyce Codd Normal Form (BCNF): Every determinant (a column or set of columns that determines another column) should be a candidate key (a minimal set of columns that uniquely identifies a row).
+There are also higher levels of normalization, such as 4NF, 5NF, and 6NF, but they are less commonly used in practice.
+Q9. What are joins and why do we need them?
+Ans. Joins are a way to combine data from two or more tables in a database based on a common field between them. We need them to retrieve cohesive data from multiple tables that are related but scattered in the database. There are different types of joins, such as inner, left, right, full and natural joins, that have different ways of matching rows between tables. 
+Q10. Explain the different types of joins.
+Ans. Joins are used to combine data from two or more tables based on a common field. There are four main types of joins in SQL:
+INNER JOIN: Returns records that have matching values in both tables.
+LEFT JOIN: Returns all records from the left table, and the matched records from the right table.
+RIGHT JOIN: Returns all records from the right table, and the matched records from the left table.
+FULL JOIN: Returns all records from both tables, whether they are matched or not.
+There are also some other types of joins, such as CROSS JOIN, SELF JOIN, and NATURAL JOIN.
+
