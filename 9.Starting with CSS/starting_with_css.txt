@@ -1,32 +1,11 @@
-1. Why CSS selectors are used in HTML?
-   CSS selectors are used to select and style specific HTML elements, allowing developers to apply visual styles like colors and layouts, enhancing the user experience.
+1. What is CSS and why use it?
+   CSS (Cascading Style Sheets) is a stylesheet language used to style HTML documents. It allows for separation of content and design, making web pages more visually appealing and easier to maintain.
 
-2. What are the different types of selectors in CSS?
-   Types of CSS selectors include:
-   - Universal Selector (*): All elements.
- Type Selectoror: By tag name (e.g., div, p).
- Class Selector (.): By class (e.g., .classname).
- ID Selector (#): By ID (e.g., #idname).
- Attribute Selectoror*: By attributes (e.g., [type="text"]).
- Descendant Selectoror*: Descendants of an element (e.g., div p).
- Child Selector (>): Direct children (e.g., ul > li).
- Adjacent Sibling Selector (+): Immediate following sibling (e.g., h1 + p).
- General Sibling Selector (~): All following siblings (e.g., h1 ~ p).
+2. What are the different ways to bring CSS into an HTML file?
+   CSS can be included in an HTML file in three ways:
+   - Inline CSS: Using the style attribute within HTML elements.
+   - Internal CSS: Placing CSS within a <style> tag in the HTML <head>.
+   - External CSS: Linking to an external stylesheet using the <link> tag in the HTML <head>.
 
-3. How do you include external fonts and apply them?
-   To include external fonts:
- Using Google Fontsts: Copy the <link> tag from Google Fonts into your HTML <head>, then apply the font in CSS:
-    
-     body {
-         font-family: 'Roboto', sans-serif;
-     }
-     
- Using @font-facece: Upload font files, use @font-face in CSS, and apply it:
-    
-     @font-face {
-         font-family: 'MyCustomFont';
-         src: url('path/to/font.woff2') format('woff2');
-     }
-     h1 {
-         font-family: 'MyCustomFont', sans-serif;
-     }
+3. What do you mean by specificity in CSS?
+   Specificity determines which CSS rules apply when multiple rules target the same element. It is calculated based on the types of selectors used, prioritizing inline styles, IDs, classes, and element selectors in that order.
