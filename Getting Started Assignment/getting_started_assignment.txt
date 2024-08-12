@@ -1,0 +1,33 @@
+Getting started Assignment 
+-----------------------------------------------------------------
+1.Why do we start learning a programming language with “Hello World!”?
+Ans. Traditionally, Hello World programs are used to illustrate how the process of coding works, as well as to ensure that a language or system is operating correctly. They are usually the first programs that new coders learn, because even those with little or no experience can execute Hello World both easily and correctly.
+
+2.How is the use of comments and how do you write comments in HTML
+Ans. As A Good programer we write comments first .The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. You can use comments to explain your code, which can help you when you edit the source code at a later date.And We write comments HTML <!--...--> Tag.
+
+3.What are elements tags and attributes and the difference between them
+Ans.ELEMENTS:The <html> element is the root element and it defines the whole HTML document. It has a start tag <html> and an end tag </html> . Then, inside the <html> element there is a <body> element: <h1>My First Heading</h1> <p>My first paragraph.</
+
+ TAGS:Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. An example of a tag is: <h1>.
+Most tags must be opened <h1> and closed </h1> in order to function.
+
+ATTRIBUTES: contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.
+
+DIFFERENCE BETWEEN ELEMENT TAGS AND ATTRIBUTES 
+
+HTML Tags :HTML tags are used to hold the HTML element.
+HTML tag starts with < and ends with >
+HTML tags are almost like keywords where every single tag has unique meaning.
+
+HTML Elements:HTML element holds the content.
+Whatever written within a HTML tag are HTML elements
+HTML elements specify the general content.
+
+HTML Attributes: HTML attributes are used to describe the characteristic of an HTML element in detail.
+HTML attributes are found only in the starting tag.
+HTML attributes specify various additional properties to the existing HTML element.
+
+4.Briefly explain what HTML entities are?
+Ans.HTML character entities are used as a replacement of reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities.
+These characters are replaced because some characters are reserved in HTML. HTML entities provide a wide range of characters which can allow you to add icons, geometric shapes, mathematical operators, etc.
