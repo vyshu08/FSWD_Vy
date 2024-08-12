@@ -1,0 +1,25 @@
+1. What is the difference between UI and UX?
+ANS- UI stands for user interface whatever become visible to us like buttons, logo, widget
+when we open a website or app is known as ui and UX refers to make our website or app
+easily understandable and usable. That's what UX is Ux . simply we can say that UI is a small part of
+UX.
+
+2. Who is a front-end developer? Explain role and responsibility in your own words?
+ANS- whatever we see when we open a website is frontend and a person who developed these
+things are called frontend developers. The main role of a frontend developer is to make the front
+as simple as possible which is easily understandable by the users.
+
+3.Who is a backend developer?Explain role and responsibility in your own words.
+ANS-A back-end developer is a person working on server-side technologies. Who is
+responsible for making the website work? It focuses on interacting with the database
+and writes scripts on the server to automate some tasks.
+
+4.Create your own Github account. Share the screen shots of both of your accounts and share your linkedin and github profile link?
+Ans: linkedin: https://www.linkedin.com/in/vyshali-challa/
+     github: https://github.com/Vyshali-Challa
+
+5.Write your first blog on your favorite platform and share the link in the blog . ( You can choose any topic for writing your 1st blog )
+ 
+AnsLink of my blog @Hashnode  
+https://hashnode.com/post/clda1iqwv000e0alh5y3c
+
