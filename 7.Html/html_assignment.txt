@@ -1,0 +1,33 @@
+ HTML Assignment
+1.Explain the table and its properties.
+Ans.Web developers can organize information like text, images, links, and other.
+data into rows and columns of cells using HTML tables.
+The <table> tag is used to generate HTML tables.Table rows are created using the <tr> tag, while data cells are created using
+the td> tag. Regular elements beneath <td> are by default left aligned.
+properties are… 
+Table Heading
+ Cell padding and spacing
+ Colspan and rowspan
+ Table Background
+ Table height and width
+ Table caption
+ Table Header, Body and footer→
+2.Explain all media elements and how they work.
+Ans.The media elements, as the HTML5 audio and video elements are generically termed, are a way of embedding playable media files directly into a web page without having to use Flash or a plug-in. The elements can be styled with CSS, integrated with SVG and Canvas, and controlled with JavaScript.
+HTML5 introduced 5 most popular media element tags i.e. <audio>, <video>, <source>, <embed>, <track>. This media element tags changed the entire development using HTML. 
+
+3.What is Get and Post in form?
+Ans.GET and POST-
+Two common methods for the request-response between a server and client are: GET- It requests the data from a specified resource. POST- It submits the processed data to a specified resource.
+The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute). The form-data can be sent as URL variables (with method="get" ) or as HTTP post transaction (with method="post" ).
+4.List all the input types we have in forms.
+Ans.Here are the different input types you can use in HTML:
+1.<input type="button">
+2.<input type="checkbox">
+3.<input type="color">
+4.<input type="date">
+5.<input type="datetime-local">
+6.<input type="email">
+7.<input type="file">
+8.<input type="hidden">
+
