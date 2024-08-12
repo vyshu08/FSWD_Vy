@@ -1,0 +1,11 @@
+Requirement & System Setup Assignment
+1.List all the tools you might use as a developer.
+Ans.1.Visual studio code 
+2.Turbo c++
+3.IntelliJ IDEA
+4.Python
+5.Notepad ++
+
+2.What are the some features of Pw Skills online lab?Explain how they are useful.
+Ans.There are many features in pw lab but i familiarly with few features are
+Live server is one of the best features of the lab . In this lab they also added visual studio code . Because of this lab we don't need to download many things in our system .They give a full system environment in the pw skills lab.
