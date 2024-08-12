@@ -1,0 +1,38 @@
+HTML Assignment
+1.What are inline and block elements in html and the difference between them? Name a few inline elements and block elements.
+Ans .Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content. Note: An inline element does not start on a new line and only takes up as much width as necessary.
+Examples of inline elements:
+<a>
+<strong> , <em> , <b> , <i> , <q>, <mark>
+<span>
+A Block-level element occupies the entire horizontal space of its parent element (container), and vertical space equal to the height of its contents, thereby creating a "block". Browsers typically display the block-level element with a newline both before and after the element
+Example of Block Elements:
+<address>
+<article>
+<aside>
+<blockquote>
+<canvas>
+<dd>
+<div>
+<dl>
+Difference Between Inline and Block Elements in HTML
+Block elements always start from a new line. Inline elements never start from a new line. Block elements cover space from left to right as far as it can go. Inline elements only cover the space as bounded by the tags in the HTML element.
+
+2.How to work with images   inHTML and explain in detail <image/> tag important  and attributes.
+Ans.The <image> tage   creates a holding space for the referenced image. The <image> tag has two required Attributes :
+ Src- specifies the path of the image .
+Alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed. You can add border edit size of image by using many attributes as border, height, hspace, width etc 
+3.How to create a list in HTML ?
+Ans.<ol>
+  <li>Chai</li>
+  <li>Pani</li>
+  <li>Namkeen</li>
+</ol>
+4.How to interlink web pages and navigate people to other websites?
+Ans.We interlink web pages and navigate to other website by-
+1.Give a title to the text you'd like to link 
+2.Put  the title into an opening html anchor link tag.
+3.Insert the anchor tags around the text you want to link to. 
+4.Create a hyperlink that leads you to the text.
+
+
